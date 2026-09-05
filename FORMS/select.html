@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Select Tags</title>
+    </head>
+    <body>
+        <h1>Select tags in HTML</h1>
+        <form action="server.php" method="post">
+            <label>Student Name: </label>
+            <input type="text" name="name" id="1"><br><br>
+            <label>Gender: </label>
+            <label>Male</label>
+            <input type="radio" name="gender" id="male" value="Male">
+            <label>Female</label>
+            <input type="radio" name="gender" id="female" value="Female" checked>
+            <br>
+            <label>Courses</label><br>
+            <label>HTML</label>
+            <input type="checkbox" name="course" id="html" value="HTML">
+            <label>Css</label>
+            <input type="checkbox" name="course" id="Css" value="Css">
+            <label>Phyton</label>
+            <input type="checkbox" name="course" id="phy" value="Phyton">
+            <label>JavaScript</label>
+            <input type="checkbox" name="course" id="js" value="JavaScript">
+            <br>
+            <label>College:</label>
+            <select id="College" name="College" multiple>
+                <option value="cvr">CVR College</option>
+                <option value="AU">Anurag University</option>
+                <option value="Cbit">CBIT College</option>
+                <option value="SNIST">Srinidhi</option>
+            </select>
+        </form>
+    </body>
+</html>

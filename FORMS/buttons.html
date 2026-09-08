@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Forms in HTML</title>
+    </head>
+    <body>
+        <form action="server.php" method="post">
+            <label>Username: </label>
+            <input type="text" name="name" id="1">
+            <br>
+            <br>
+            <label>Password: </label>
+            <input type="password" name="pass" id="2">
+            <br><br>
+            <label>email: </label>
+            <input type="email" name="email" id="3"><br><br>
+            <label>Age: </label>
+            <input type="number" name="num" id="4"><br><br>
+            <label>D.O.B: </label>
+            <input type="date" name="date" id="5"><br><br>
+            <label>Time: </label>
+            <input type="time" name="time" id="6"><br><br>          
+            <input type="hidden" name="hid" id="7">
+            <button type="Submit">Submit</button>
+            <button type="reset">Reset</button>
+            <button type="button" onclick="ShowMessage()">
+            Click Me</button>
+            <script>
+                Function ShowMessage(){
+                    alert("button clicked!");
+                }
+            </script>
+        </form>
+    </body>
+</html>
